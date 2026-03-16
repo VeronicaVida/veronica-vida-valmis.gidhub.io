@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="About Roan Café.">
+  <title>Roan Café | About</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Go to homepage">
+        <img src="logo.png" alt="Roan Café logo" class="logo-image">
+      </a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class=" right-header">
+         <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+          <ul class="nav-list">
+             <li><a href="menu.html">Menu</a></li>
+             <li><a href="about.html">About</a></li>
+             <li><a href="contacts.html">Contacts</a></li>
+
+             <li class="mobile-search-item">
+              <button class="search-toggle" type="button" aria-label="Open search">
+                <img src="search.png" alt="" class="search-icon">
+                <span class="search-text">Search</span>
+              </button>
+            </li>
+          </ul>
+         </nav>
+      </div>
+
+    <div class="search-bar-wrapper">
+      <div class="container">
+        <form class="search-form" role="search">
+          <label for="site-search-about" class="visually-hidden">Search this page</label>
+          <input type="search" id="site-search-about" class="site-search-input" placeholder="Search this page...">
+          <button type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="page-banner">
+      <div class="container">
+        <h1>About Us</h1>
+        <p>The story, values and atmosphere of Roan Café.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container two-column">
+        <div class="page-image">
+          <img src="blog.png" alt="About page image representing the story of the café">
+        </div>
+
+        <div class="text-block">
+          <h2 class="section-title">Who We Are</h2>
+          <p>
+            Roan Café was created to be more than just a café. It is a place where people can pause,
+            relax and enjoy quality coffee in a beautiful atmosphere.
+          </p>
+
+          <h2 class="section-title">Our Values</h2>
+          <ul class="feature-list">
+            <li>Quality ingredients and carefully prepared drinks</li>
+            <li>Warm, calm and welcoming atmosphere</li>
+            <li>Friendly service and meaningful customer experience</li>
+            <li>Modern but cozy café identity</li>
+          </ul>
+
+          <h2 class="section-title">Our Space</h2>
+          <p>
+            We wanted Roan to feel peaceful, stylish and easy to enjoy. It is designed for short visits,
+            long conversations, study time and quiet coffee breaks.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section story-section">
+      <div class="container story-grid">
+        <div class="story-text">
+          <h2 class="section-title">Why Roan?</h2>
+          <p>
+            The name and visual style reflect warmth, rich tones and layered stories.
+            The café is built around the idea that simple everyday moments can still feel special.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h2>Roan Café</h2>
+        <p>Good coffee, warm atmosphere, <br>
+          and a little pause in the day.
+        </p>
+      </div>
+      <div>
+        <h2>Pages</h2>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contacts.html">Contacts</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Visit</h2>
+        <p>Example Street 12, Helsinki</p>
+        <p>info@roancafe.fi</p>
+        <p>+358 40 123 4567</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

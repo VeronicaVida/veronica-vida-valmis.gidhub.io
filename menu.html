@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Roan Café menu page.">
+  <title>Roan Café | Menu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Go to homepage">
+        <img src="logo.png" alt="Roan Café logo" class="logo-image">
+      </a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class=" right-header">
+         <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+          <ul class="nav-list">
+             <li><a href="menu.html">Menu</a></li>
+             <li><a href="about.html">About</a></li>
+             <li><a href="contacts.html">Contacts</a></li>
+
+             <li class="mobile-search-item">
+              <button class="search-toggle" type="button" aria-label="Open search">
+                <img src="search.png" alt="" class="search-icon">
+                <span class="search-text">Search</span>
+              </button>
+            </li>
+          </ul>
+         </nav>
+      </div>
+
+    <div class="search-bar-wrapper">
+      <div class="container">
+        <form class="search-form" role="search">
+          <label for="site-search-menu" class="visually-hidden">Search this page</label>
+          <input type="search" id="site-search-menu" class="site-search-input" placeholder="Search this page...">
+          <button type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="page-banner">
+      <div class="container">
+        <h1>Our Menu</h1>
+        <p>Fresh drinks, pastries and café favorites.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="page-image">
+          <img src="menu.png" alt="Menu image with drinks and pastries">
+        </div>
+
+        <div class="menu-grid">
+          <article class="menu-card">
+            <h2>Coffee</h2>
+            <ul class="menu-list">
+              <li><span>Espresso</span><span>2,90 €</span></li>
+              <li><span>Americano</span><span>3,40 €</span></li>
+              <li><span>Cappuccino</span><span>4,20 €</span></li>
+              <li><span>Latte</span><span>4,50 €</span></li>
+              <li><span>Iced Latte</span><span>4,80 €</span></li>
+            </ul>
+          </article>
+
+          <article class="menu-card">
+            <h2>Tea & Drinks</h2>
+            <ul class="menu-list">
+              <li><span>Green Tea</span><span>3,20 €</span></li>
+              <li><span>Black Tea</span><span>3,20 €</span></li>
+              <li><span>Hot Chocolate</span><span>4,00 €</span></li>
+              <li><span>Fresh Juice</span><span>4,50 €</span></li>
+              <li><span>Still Water</span><span>2,00 €</span></li>
+            </ul>
+          </article>
+
+          <article class="menu-card">
+            <h2>Pastries</h2>
+            <ul class="menu-list">
+              <li><span>Croissant</span><span>3,20 €</span></li>
+              <li><span>Cinnamon Roll</span><span>3,80 €</span></li>
+              <li><span>Blueberry Muffin</span><span>3,90 €</span></li>
+              <li><span>Cheesecake Slice</span><span>4,90 €</span></li>
+              <li><span>Cookie</span><span>2,80 €</span></li>
+            </ul>
+          </article>
+
+          <article class="menu-card">
+            <h2>Lunch & Savory</h2>
+            <ul class="menu-list">
+              <li><span>Avocado Toast</span><span>7,90 €</span></li>
+              <li><span>Chicken Sandwich</span><span>8,50 €</span></li>
+              <li><span>Soup of the Day</span><span>7,50 €</span></li>
+              <li><span>Bagel</span><span>5,90 €</span></li>
+              <li><span>Feta Salad</span><span>9,20 €</span></li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h2>Roan Café</h2>
+        <p>Good coffee, warm atmosphere, <br>
+          and a little pause in the day.</p>
+      </div>
+      <div>
+        <h2>Pages</h2>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contacts.html">Contacts</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Visit</h2>
+        <p>Example Street 12, Helsinki</p>
+        <p>info@roancafe.fi</p>
+        <p>+358 40 123 4567</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
